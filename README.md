@@ -4,7 +4,7 @@ Este projeto apresenta um **diagrama de infraestrutura na AWS** criado no **draw
 
 ## 📊 Diagrama
 
-
+![Diagrama da Infraestrutura](./infraestrutura-basica.drawio.png)
 
 ## 🛠️ Componentes Utilizados
 - **Usuário (Cliente):** Origem das requisições para a aplicação.  
