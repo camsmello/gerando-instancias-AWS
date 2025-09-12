@@ -2,11 +2,14 @@
 
 Este projeto apresenta um **diagrama de infraestrutura na AWS** criado no **draw.io (diagrams.net)**.
 
-## 📊 Diagrama
+![AWS](https://img.shields.io/badge/AWS-CloudFormation-orange?style=for-the-badge&logo=amazonaws)  
+![Bootcamp](https://img.shields.io/badge/DIO-Bootcamp-success?style=for-the-badge)  
+
+## Diagrama: 📊
 
 ![Diagrama da Infraestrutura](./infraestrutura-basica.drawio.png)
 
-## 🛠️ Componentes Utilizados
+## Componentes Utilizados: 🛠️
 - **Usuário (Cliente):** Origem das requisições para a aplicação.  
 - **Internet:** Representa a rede pública que conecta os usuários à AWS.  
 - **Internet Gateway (IGW):** Permite a comunicação entre a VPC e a Internet.  
@@ -15,7 +18,7 @@ Este projeto apresenta um **diagrama de infraestrutura na AWS** criado no **draw
 - **EC2 Instance:** Máquina virtual onde a aplicação pode ser hospedada.  
 - **Security Group:** Firewall virtual que controla as regras de entrada e saída da instância EC2.  
 
-## 🔗 Fluxo de Comunicação
+## Fluxo de Comunicação: 🔗
 1. O **usuário** acessa a aplicação pela **Internet**.  
 2. O tráfego passa pelo **Internet Gateway (IGW)**.  
 3. Dentro da **VPC**, a requisição chega até a **Subnet Pública**.  
@@ -23,4 +26,4 @@ Este projeto apresenta um **diagrama de infraestrutura na AWS** criado no **draw
 
 ---
 
-📌 Esse é um diagrama **básico**, que pode ser expandido futuramente.
+Esse é um diagrama **básico**, que pode ser expandido futuramente.
